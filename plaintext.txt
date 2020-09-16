@@ -1,0 +1,3 @@
+The API for argparse is similar to the one provided by optparse, and in many cases argparse can be used as a straightforward replacement by updating the names of the classes and methods used. There are a few places where direct compatibility could not be preserved as new features were added, however.
+
+You will have to decide whether to upgrade existing programs on a case-by-case basis. If you have written extra code to work around limitations of optparse, you may want to upgrade to reduce the amount of code you need to maintain. New programs should probably use argparse, if it is available on all deployment platforms.
